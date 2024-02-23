@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  display: block;
+  border: thick ridge #ddd;
+}
+
+#info-bar {
+  display: flex;
+  width: 700px;
+}
