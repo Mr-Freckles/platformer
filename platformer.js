@@ -16,6 +16,7 @@ let keys = []; // array to hold actively pressed keys
 
 let retryStage;
 let updateTimer;
+let song;
 
 // constants
 const gravity = 0.4;
@@ -28,6 +29,10 @@ function setup() {
     noStroke();
     textAlign(CENTER, CENTER);
     textSize(15);
+
+    //music 
+    let song = createAudio('/platformer/onrepeat.mp3');
+    song.play();
 
     /**
      * Player and block classes
